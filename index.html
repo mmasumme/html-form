@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+
+<form action="submit_form.php" method="post" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br>
+
+    <label for="radio1">Radio 1:</label>
+    <input type="radio" id="radio1" name="radio" value="radio1">
+    
+    <label for="radio2">Radio 2:</label>
+    <input type="radio" id="radio2" name="radio" value="radio2"><br>
+
+    <label for="select">Select:</label>
+    <select id="select" name="select">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select><br>
+
+    <label for="file">File Input:</label>
+    <input type="file" id="file" name="file"><br>
+
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br>
+
+    <label for="range">Range:</label>
+    <input type="range" id="range" name="range" min="0" max="100" value="50"><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
